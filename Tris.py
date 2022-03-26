@@ -101,9 +101,9 @@ def main_window():
     btn2 = Button(mainWindow, height = 1, width = 1,font = ("Courier", 100), command = lambda: insert_symbol(btn2, 0, 1))
     btn3 = Button(mainWindow, height = 1, width = 1, font = ("Courier", 100), command = lambda: insert_symbol(btn3, 0, 2))
    
-    btn4 = Button(mainWindow, height = 1, width = 1, font = ("Courier", 100), command = lambda: insert_symbol(btn4, 1, 0))
-    btn5 = Button(mainWindow, height = 1, width = 1, font = ("Courier", 100), command = lambda: insert_symbol(btn5, 1, 1))
-    btn6 = Button(mainWindow, height = 1, width = 1, font = ("Courier", 100), command = lambda: insert_symbol(btn6, 1, 2))
+    btn4 = Button(mainWindow, width = 1, font = ("Courier", 100), command = lambda: insert_symbol(btn4, 1, 0))
+    btn5 = Button(mainWindow, width = 1, font = ("Courier", 100), command = lambda: insert_symbol(btn5, 1, 1))
+    btn6 = Button(mainWindow, width = 1, font = ("Courier", 100), command = lambda: insert_symbol(btn6, 1, 2))
 
     btn7 = Button(mainWindow, height = 1, width = 1, font = ("Courier", 100), command = lambda: insert_symbol(btn7, 2, 0))
     btn8 = Button(mainWindow, height = 1, width = 1, font = ("Courier", 100), command = lambda: insert_symbol(btn8, 2, 1))
