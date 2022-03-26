@@ -4,8 +4,6 @@ from tkinter import messagebox
 count = 0
 countPartita = 0
 
-pixelVirtual = tk.PhotoImage(width=1, height=1)
-
 PunteggioPlayer1 = 0
 PunteggioPlayer2 = 0
 
@@ -98,6 +96,8 @@ def main_window():
     quit_btn = Button(mainWindow, height = 1, width = 5, text = "Esci", command = exit_main)
     quit_btn.grid(row = 0, column = 2)
 
+    pixelVirtual = tk.PhotoImage(width=1, height=1)
+    
     btn1 = Button(mainWindow, image = pixelVirtual, width = 100, height = 100, compound = "c", font = ("Courier", 100), command = lambda: insert_symbol(btn1, 0, 0))
     btn2 = Button(mainWindow, image = pixelVirtual, width = 100, height = 100, compound = "c", font = ("Courier", 100), command = lambda: insert_symbol(btn2, 0, 1))
     btn3 = Button(mainWindow, image = pixelVirtual, width = 100, height = 100, compound = "c", font = ("Courier", 100), command = lambda: insert_symbol(btn3, 0, 2))
