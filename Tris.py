@@ -90,10 +90,8 @@ def main_window():
     mainWindow = Tk()
     mainWindow.title("Tris di Federico")
 
-    mainWindow.geometry('291x405')
+    # mainWindow.geometry('291x405')
     mainWindow.resizable(0,0)
-
-    mainWindow.eval('tk::PlaceWindow . center')
 
     player = Label(mainWindow, text=player1 + " (X)", height = 1, width = 16)
     player.grid(row = 0, column = 0, columnspan=2)
