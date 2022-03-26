@@ -4,6 +4,7 @@ from tkinter import messagebox
 count = 0
 countPartita = 0
 
+pixelVirtual = tk.PhotoImage(width=1, height=1)
 
 PunteggioPlayer1 = 0
 PunteggioPlayer2 = 0
