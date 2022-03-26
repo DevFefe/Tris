@@ -97,17 +97,17 @@ def main_window():
     quit_btn = Button(mainWindow, height = 1, width = 5, text = "Esci", command = exit_main)
     quit_btn.grid(row = 0, column = 2)
 
-    btn1 = Button(mainWindow, height = 1, width= 1, font = ("Courier", 100), command = lambda: insert_symbol(btn1, 0, 0))
-    btn2 = Button(mainWindow, height = 1, width = 1,font = ("Courier", 100), command = lambda: insert_symbol(btn2, 0, 1))
-    btn3 = Button(mainWindow, height = 1, width = 1, font = ("Courier", 100), command = lambda: insert_symbol(btn3, 0, 2))
+    btn1 = Button(mainWindow, width= 1, font = ("Courier", 100), command = lambda: insert_symbol(btn1, 0, 0))
+    btn2 = Button(mainWindow, width = 1,font = ("Courier", 100), command = lambda: insert_symbol(btn2, 0, 1))
+    btn3 = Button(mainWindow, width = 1, font = ("Courier", 100), command = lambda: insert_symbol(btn3, 0, 2))
    
     btn4 = Button(mainWindow, width = 1, font = ("Courier", 100), command = lambda: insert_symbol(btn4, 1, 0))
     btn5 = Button(mainWindow, width = 1, font = ("Courier", 100), command = lambda: insert_symbol(btn5, 1, 1))
     btn6 = Button(mainWindow, width = 1, font = ("Courier", 100), command = lambda: insert_symbol(btn6, 1, 2))
 
-    btn7 = Button(mainWindow, height = 1, width = 1, font = ("Courier", 100), command = lambda: insert_symbol(btn7, 2, 0))
-    btn8 = Button(mainWindow, height = 1, width = 1, font = ("Courier", 100), command = lambda: insert_symbol(btn8, 2, 1))
-    btn9 = Button(mainWindow, height = 1, width = 1, font = ("Courier", 100), command = lambda: insert_symbol(btn9, 2, 2))
+    btn7 = Button(mainWindow, width = 1, font = ("Courier", 100), command = lambda: insert_symbol(btn7, 2, 0))
+    btn8 = Button(mainWindow, width = 1, font = ("Courier", 100), command = lambda: insert_symbol(btn8, 2, 1))
+    btn9 = Button(mainWindow, width = 1, font = ("Courier", 100), command = lambda: insert_symbol(btn9, 2, 2))
 
     btn1.grid(row = 2, column = 0, padx = 0, pady = 0)
     btn2.grid(row = 2, column = 1)
